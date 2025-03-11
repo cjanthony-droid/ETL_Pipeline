@@ -1,0 +1,8 @@
+Simple ETL pipeline.
+
+1. Get an api that updates daily , NewsAPI
+2. Defnie purpose of etl, what am i doing. Take headline and description -> remove all common use words -> find top 5 most popular words
+ -> send to database ; also use top headlines canada, us, and different catagories
+3. set up etl conidtions
+4. create a hosted postgres on Render https://render.com
+5. host the rest on render.com
